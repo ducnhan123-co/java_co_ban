@@ -1,0 +1,31 @@
+
+public class ViDu {
+	public static void main(String[] args) {
+		String s1 = "tItv";
+		String s2 = ".Vn";
+
+		String s3 = s1 + s2;
+		
+		//hàm concat=> nối chuỗi 
+		String s4 = s1.concat(s2);
+		System.out.println("s3= "+ s3);
+		System.out.println("s4= "+ s4);
+
+		//hàm replace => thay thế
+		String s5 ="Tung.vn";
+		String s6 = s5.replaceAll("Tung","TITV");
+		System.out.println("s6= " + s6);
+		
+
+		// toLowerCase => chuyển về viết thường
+		// toUpperCase => chuyển về viết hoa
+		String s7 = s3.toLowerCase();
+		String s8 = s3.toUpperCase();
+		System.out.println("s7 = " + s7);
+		System.out.println("s8 = " + s8);
+		
+		//trim() => xoá khoảng trắng dư thừa ở đầu chuỗi
+		String s9="   Xin chao cac ban , minh la titv.vn     ";
+		System.out.println(s9.trim());
+	}
+}

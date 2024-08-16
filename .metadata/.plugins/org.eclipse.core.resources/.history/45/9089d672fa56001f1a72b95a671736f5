@@ -1,0 +1,41 @@
+package main;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class ViduFile {
+	
+	File file;
+
+	public ViduFile(String tenFile)
+	{
+		this.file = new File(tenFile);
+	}
+	
+	public boolean kiemTraThucThi() {
+		return this.file.canExecute();
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int luaChon=0;
+		do {
+			System.out.println("MENU ---------- ");
+			System.out.println("1. Kiểm tra file có thể thực thi: ");
+			System.out.println("2. Kiểm tra file có thể đọc: ");
+			System.out.println("3. Kiểm tra file có thể ghi: ");
+			System.out.println("4. In đường dẫn: ");
+			System.out.println("5. In tên file: ");
+			System.out.println("6. Kiểm tra file là thư mục hoặc tập tin: ");
+			System.out.println("7. In ra danh sách các file con: ");
+			System.out.println("8. In ra cây thư mục: ");
+			System.out.println("0. Thoát chương trình.");
+			luaChon = sc.nextInt();
+			
+		
+		}while(luaChon!=0);
+	}
+}
+
+	

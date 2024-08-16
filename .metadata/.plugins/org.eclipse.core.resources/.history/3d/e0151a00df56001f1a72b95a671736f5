@@ -1,0 +1,12 @@
+package main;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class RutThamTrungThuong_HashSet {
+	public static void main(String[] args) {
+		Set<String> tapHopPhieuDuThuong = HashSet<String>();
+		
+		
+	}
+}

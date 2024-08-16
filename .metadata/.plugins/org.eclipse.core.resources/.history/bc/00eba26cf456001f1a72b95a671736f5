@@ -1,0 +1,7 @@
+package main;
+
+import java.io.File;
+
+public class ViDuTaoTapTinVaThuMuc {
+   File folder1 = new File("C:\Users\Admin\eclipse-workspace\Java_67\src")
+}
