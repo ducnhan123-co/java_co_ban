@@ -1,7 +1,0 @@
-package main;
-
-public class ViDuDocDoiTuong {
-	public static void main(String[] args) {
-		
-	}
-}
